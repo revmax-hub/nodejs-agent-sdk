@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/revmax-hub/nodejs-sdk.git"
+    "url": "git+https://github.com/revmax-hub/nodejs-agent-sdk.git"
   },
   "keywords": [
     "revmax",
@@ -29,9 +29,9 @@
   "author": "RevMax",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/revmax-hub/nodejs-sdk/issues"
+    "url": "https://github.com/revmax-hub/nodejs-agent-sdk/issues"
   },
-  "homepage": "https://github.com/revmax-hub/nodejs-sdk#readme",
+  "homepage": "https://github.com/revmax-hub/nodejs-agent-sdk#readme",
   "dependencies": {
     "axios": "^1.5.0",
     "uuid": "^9.0.0"
