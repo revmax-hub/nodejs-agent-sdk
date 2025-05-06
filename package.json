@@ -1,6 +1,6 @@
 {
   "name": "@revmax/agent-sdk",
-  "version": "0.0.3-beta.1",
+  "version": "0.0.7-beta.1",
   "description": "Official Node.js SDK for RevMax - billing, customer management, and usage tracking",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
