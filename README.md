@@ -18,26 +18,22 @@ yarn add @revmax/agent-sdk
 ```typescript
 import { RevMaxClient } from '@revmax/agent-sdk';
 
-// Create and connect to the API
 const client = new RevMaxClient('revx_pk_your_api_key');
-await client.connect();
 
 // Track an event
 await client.trackEvent({
   agentId: 'agent_123',
   customerExternalId: 'customer_456',
-  signalName: 'lead_generated',
-  quantity: 1,
+  metricName: 'meeting_booked',
   metadata: {
-    eventId: 'lead_generated',
     usageCost: [
       {
-        serviceName: 'wfloengine', // Service name
-        units: 1, // Units consumed
+        serviceName: 'SST-DeepGram', // Service name
+        units: 10, // Units consumed
       },
       {
-        serviceName: 'gpt-4o', // Service name
-        units: 23471, // Units consumed
+        serviceName: 'TTS-ElevanLabs', // Service name
+        units: 10, // Units consumed
       },
     ],
   },
